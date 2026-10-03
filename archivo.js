@@ -10,19 +10,41 @@
 		'alfombras-colores': null,
 		'ropa-de-cama-gris': null,
 		'textiles-cama-tonos-pastel': null,
-		'acolchado-tonos-calidos': null
+		'acolchado-tonos-calidos': null,
+		'almohadas-decorativas-rosa': null,
+		'set-toallas-premium': null,
+		'manta-felpa-gris': null,
+		'cortinas-lino-natural': null,
+		'ropa-cama-blanco-roto': null,
+		'almohadones-terciopelo': null,
+		'frazada-ligera-verano': null,
+		'juego-sabanas-premium': null,
+		'toallero-textil-varios': null,
+		'puff-tapizado-decorativo': null,
+		'mantel-lino-estampado': null
 	};
 
 	const productos = [
-		{ id: 'acolchado-multicolor', nombre: 'Acolchado multicolor', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-multicolor.jpg', imagenAlt: 'Acolchado multicolor extendido sobre una cama', video: '' },
-		{ id: 'ropa-de-cama-turquesa', nombre: 'Ropa de cama turquesa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-turquesa.jpg', imagenAlt: 'Cama cubierta con ropa de cama turquesa', video: '' },
-		{ id: 'toallones-colores', nombre: 'Toallones en varios colores', tipo: 'Toallas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/toallones-colores.jpg', imagenAlt: 'Toallones exhibidos en varios colores', video: '' },
-		{ id: 'ropa-de-cama-rosa', nombre: 'Ropa de cama rosa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-rosa.jpg', imagenAlt: 'Cama con ropa de cama en tonos rosas', video: '' },
-		{ id: 'frazadas-apiladas', nombre: 'Frazadas en varios colores', tipo: 'Frazadas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/frazadas-apiladas.jpg', imagenAlt: 'Frazadas dobladas en varios colores', video: '' },
-		{ id: 'alfombras-colores', nombre: 'Alfombras en varios colores', tipo: 'Alfombras', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/alfombras-colores.jpg', imagenAlt: 'Alfombras exhibidas en varios colores', video: '' },
-		{ id: 'ropa-de-cama-gris', nombre: 'Ropa de cama gris', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-gris.jpg', imagenAlt: 'Cama cubierta con ropa de cama gris', video: '' },
-		{ id: 'textiles-cama-tonos-pastel', nombre: 'Textiles para cama en tonos pastel', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/textiles-cama-tonos-pastel.jpg', imagenAlt: 'Textiles para cama doblados en tonos pastel', video: '' },
-		{ id: 'acolchado-tonos-calidos', nombre: 'Acolchado en tonos cálidos', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-tonos-calidos.jpg', imagenAlt: 'Acolchado en tonos marrones sobre una cama', video: '' }
+		{ id: 'acolchado-multicolor', nombre: 'Acolchado multicolor', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-multicolor.jpg', imagenAlt: 'Acolchado multicolor vibrante para cama queen' },
+		{ id: 'ropa-de-cama-turquesa', nombre: 'Ropa de cama turquesa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-turquesa.jpg', imagenAlt: 'Juego de ropa de cama en tonos turquesa' },
+		{ id: 'toallones-colores', nombre: 'Toallones en varios colores', tipo: 'Toallas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/toallones-colores.jpg', imagenAlt: 'Toallones suave y absorbentes en múltiples colores' },
+		{ id: 'ropa-de-cama-rosa', nombre: 'Ropa de cama rosa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-rosa.jpg', imagenAlt: 'Set de ropa de cama en tonos rosados' },
+		{ id: 'frazadas-apiladas', nombre: 'Frazadas en varios colores', tipo: 'Frazadas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/frazadas-apiladas.jpg', imagenAlt: 'Frazadas apiladas en diferentes tonalidades' },
+		{ id: 'alfombras-colores', nombre: 'Alfombras en varios colores', tipo: 'Alfombras', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/alfombras-colores.jpg', imagenAlt: 'Alfombras coloridas para decorar cualquier espacio' },
+		{ id: 'ropa-de-cama-gris', nombre: 'Ropa de cama gris', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-gris.jpg', imagenAlt: 'Ropa de cama gris elegante y versátil' },
+		{ id: 'textiles-cama-tonos-pastel', nombre: 'Textiles para cama en tonos pastel', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/textiles-cama-tonos-pastel.jpg', imagenAlt: 'Textiles en tonos pastel suave para cama' },
+		{ id: 'acolchado-tonos-calidos', nombre: 'Acolchado en tonos cálidos', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-tonos-calidos.jpg', imagenAlt: 'Acolchado con tonos cálidos y acogedores' },
+		{ id: 'almohadas-decorativas-rosa', nombre: 'Almohadas decorativas rosa', tipo: 'Accesorios', descripcion: 'Cojines decorativos para sofá y cama en tonos rosados.', imagen: 'imagenes/productos/almohadas-decorativas-rosa.jpg', imagenAlt: 'Almohadas decorativas en rosa con diferentes texturas' },
+		{ id: 'set-toallas-premium', nombre: 'Set de toallas premium', tipo: 'Toallas', descripcion: 'Juego completo de toallas en algodón premium.', imagen: 'imagenes/productos/set-toallas-premium.jpg', imagenAlt: 'Set de toallas premium en tonos neutros' },
+		{ id: 'manta-felpa-gris', nombre: 'Manta de felpa gris', tipo: 'Frazadas', descripcion: 'Manta suave de felpa perfecta para invierno.', imagen: 'imagenes/productos/manta-felpa-gris.jpg', imagenAlt: 'Manta de felpa gris cálida y reconfortante' },
+		{ id: 'cortinas-lino-natural', nombre: 'Cortinas de lino natural', tipo: 'Decoración', descripcion: 'Cortinas en lino natural para ambientes luminosos.', imagen: 'imagenes/productos/cortinas-lino-natural.jpg', imagenAlt: 'Cortinas de lino en tono natural' },
+		{ id: 'ropa-cama-blanco-roto', nombre: 'Ropa de cama blanco roto', tipo: 'Ropa de cama', descripcion: 'Set de ropa de cama en blanco roto elegante.', imagen: 'imagenes/productos/ropa-cama-blanco-roto.jpg', imagenAlt: 'Ropa de cama en blanco roto minimalista' },
+		{ id: 'almohadones-terciopelo', nombre: 'Almohadones de terciopelo', tipo: 'Accesorios', descripcion: 'Almohadones en terciopelo suave para decorar.', imagen: 'imagenes/productos/almohadones-terciopelo.jpg', imagenAlt: 'Almohadones en terciopelo de calidad premium' },
+		{ id: 'frazada-ligera-verano', nombre: 'Frazada ligera de verano', tipo: 'Frazadas', descripcion: 'Frazada ligera ideal para noches templadas.', imagen: 'imagenes/productos/frazada-ligera-verano.jpg', imagenAlt: 'Frazada ligera en tonos claros para verano' },
+		{ id: 'juego-sabanas-premium', nombre: 'Juego de sábanas premium', tipo: 'Ropa de cama', descripcion: 'Sábanas de algodón premium con alta densidad.', imagen: 'imagenes/productos/juego-sabanas-premium.jpg', imagenAlt: 'Juego de sábanas premium en varios colores' },
+		{ id: 'toallero-textil-varios', nombre: 'Toalleros en varios estilos', tipo: 'Accesorios', descripcion: 'Toalleros decorativos para el baño.', imagen: 'imagenes/productos/toallero-textil-varios.jpg', imagenAlt: 'Toalleros en diferentes estilos y colores' },
+		{ id: 'puff-tapizado-decorativo', nombre: 'Puff tapizado decorativo', tipo: 'Decoración', descripcion: 'Puff multifuncional con tapizado de calidad.', imagen: 'imagenes/productos/puff-tapizado-decorativo.jpg', imagenAlt: 'Puff tapizado en tonos elegantes' },
+		{ id: 'mantel-lino-estampado', nombre: 'Mantel de lino estampado', tipo: 'Decoración', descripcion: 'Mantel en lino con estampados exclusivos.', imagen: 'imagenes/productos/mantel-lino-estampado.jpg', imagenAlt: 'Mantel de lino con diseño estampado' }
 	];
 
 	// Reemplazá estos valores de ejemplo por los datos reales del negocio.
@@ -97,11 +119,11 @@
 					? `<img src="${escapar(producto.imagen)}" alt="${escapar(producto.imagenAlt || producto.nombre)}" loading="lazy" decoding="async">`
 					: '<span class="media-placeholder">Foto próximamente</span>';
 				const video = producto.video
-					? `<video controls preload="none"${producto.imagen ? ` poster="${escapar(producto.imagen)}"` : ''} aria-label="Video de ${escapar(producto.nombre)}"><source src="${escapar(producto.video)}"></video>`
+					? `<video controls preload="none"${producto.imagen ? ` poster="${escapar(producto.imagen)}"` : ''} aria-label="Video de ${escapar(producto.nombre)}"><source src="${escapar(producto.video)}">[...]`
 					: '';
 				const cantidad = mapaCanasta.get(producto.id) || 0;
 				const precio = PRECIOS[producto.id] == null ? 'Consultar precio' : formatoPrecio.format(PRECIOS[producto.id]);
-				return `<article class="product"><div class="media">${imagen}${video}</div><div class="product-info"><span class="category">${escapar(producto.tipo)}</span><h3>${escapar(producto.nombre)}</h3><p class="description">${escapar(producto.descripcion)}</p><div class="purchase"><span class="price">${precio}</span><button class="add" type="button" data-agregar="${producto.id}">${cantidad ? `Agregar (${cantidad})` : 'Agregar a la canasta'}</button></div></div></article>`;
+				return `<article class="product"><div class="media">${imagen}${video}</div><div class="product-info"><span class="category">${escapar(producto.tipo)}</span><h3>${escapar(producto.nombre)}</h3><p class="description">${escapar(producto.descripcion)}</p><div class="product-footer"><span class="price">${escapar(precio)}</span><button type="button" class="button" data-agregar="${producto.id}" aria-label="Agregar ${escapar(producto.nombre)} a la canasta">Agregar</button></div></div></article>`;
 			}).join('') : '<p class="empty">No encontramos productos con esa búsqueda.</p>';
 		}
 
@@ -115,7 +137,7 @@
 			itemsCarrito.innerHTML = cantidadTotal ? [...mapaCanasta.entries()].map(([id, cantidad]) => {
 				const producto = porId.get(id);
 				const precio = PRECIOS[id] == null ? 'Consultar precio' : `${formatoPrecio.format(PRECIOS[id])} c/u`;
-				return `<div class="cart-item"><div><strong>${escapar(producto.nombre)}</strong><p>${precio}</p></div><div class="quantity"><button type="button" data-cambiar="menos" data-id="${id}" aria-label="Quitar una unidad de ${escapar(producto.nombre)}">−</button><span>${cantidad}</span><button type="button" data-cambiar="mas" data-id="${id}" aria-label="Agregar una unidad de ${escapar(producto.nombre)}">+</button></div></div>`;
+				return `<div class="cart-item"><div><strong>${escapar(producto.nombre)}</strong><p>${precio}</p></div><div class="quantity"><button type="button" data-cambiar="menos" data-id="${id}" aria-label="Disminuir cantidad de ${escapar(producto.nombre)}">−</button><span>${cantidad}</span><button type="button" data-cambiar="mas" data-id="${id}" aria-label="Aumentar cantidad de ${escapar(producto.nombre)}">+</button></div></div>`;
 			}).join('') : '<p class="cart-empty">Todavía no agregaste productos.</p>';
 			actualizarEnlaces();
 		}
